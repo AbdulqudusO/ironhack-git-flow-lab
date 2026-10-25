@@ -40,3 +40,43 @@ nav a:focus-visible {
 main {
   padding: 2rem;
 }
+
+/* Theme toggle button */
+.theme-toggle {
+  padding: 0.65rem 1rem;
+  background: #ffffff;
+  color: #17365d;
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.theme-toggle:focus-visible {
+  outline: 3px solid #fbbf24;
+  outline-offset: 3px;
+}
+
+/* Dark theme */
+body[data-theme="dark"] {
+  background: #1f2937;
+  color: #f9fafb;
+}
+
+body[data-theme="dark"] .site-header {
+  background: #111827;
+}
+
+body[data-theme="dark"] .theme-toggle {
+  background: #374151;
+  color: #ffffff;
+  border-color: #93c5fd;
+}
+
+/* Small screens */
+@media (max-width: 600px) {
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
