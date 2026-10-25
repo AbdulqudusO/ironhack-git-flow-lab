@@ -1,6 +1,42 @@
+
 body {
   font-family: system-ui, sans-serif;
   margin: 0;
-  padding: 2rem;
   background: #f6f8fa;
+  color: #243247;
+}
+
+.site-header {
+  background: #17365d;
+  color: white;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.site-header h2 {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a:focus-visible {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
 }
