@@ -3,4 +3,10 @@ body {
   margin: 0;
   padding: 2rem;
   background: #f6f8fa;
+  color: #111827;
+  line-height: 1.6;
+}
+/* High-contrast text when dark mode is enabled */
+body[data-theme="dark"] {
+  color: #ffffff;
 }
