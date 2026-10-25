@@ -1,11 +1,13 @@
-
+/* Base styling with improved accessibility contrast */
 body {
   font-family: system-ui, sans-serif;
   margin: 0;
   background: #f6f8fa;
-  color: #243247;
+  color: #111827;
+  line-height: 1.6;
 }
 
+/* Header banner */
 .site-header {
   background: #17365d;
   color: white;
@@ -21,6 +23,7 @@ body {
   margin: 0;
 }
 
+/* Navigation */
 nav {
   display: flex;
   gap: 1.5rem;
@@ -57,10 +60,10 @@ main {
   outline-offset: 3px;
 }
 
-/* Dark theme */
+/* Dark theme with improved text contrast */
 body[data-theme="dark"] {
   background: #1f2937;
-  color: #f9fafb;
+  color: #ffffff;
 }
 
 body[data-theme="dark"] .site-header {
@@ -73,7 +76,7 @@ body[data-theme="dark"] .theme-toggle {
   border-color: #93c5fd;
 }
 
-/* Small screens */
+/* Responsive layout */
 @media (max-width: 600px) {
   .site-header {
     flex-direction: column;
