@@ -22,3 +22,11 @@ Click again to return to light mode.
 - feature/*: New features
 - hotfix/*: Urgent fixes
 - release/*: Release preparation
+## Release v1.0.0
+
+The first stable release includes:
+
+- Responsive navigation header
+- Interactive light and dark themes
+- Improved text contrast and accessibility
+- Git Flow branching with feature, hotfix and release branches
